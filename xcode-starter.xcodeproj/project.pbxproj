@@ -25,6 +25,9 @@
 		DE65ED472A6B1BEF005EA008 /* crsqlite-aarch64-darwin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65ED462A6B1BEF005EA008 /* crsqlite-aarch64-darwin.a */; };
 		DE65ED492A6B1BFB005EA008 /* crsqlite-universal-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65ED482A6B1BFB005EA008 /* crsqlite-universal-ios.a */; };
 		DE65ED4B2A6B1C03005EA008 /* crsqlite-universal-ios-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65ED4A2A6B1C03005EA008 /* crsqlite-universal-ios-sim.a */; };
+		DE65ED562A6B22D2005EA008 /* crsqlite-init.c in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED552A6B22D2005EA008 /* crsqlite-init.c */; };
+		DE65ED572A6B22D2005EA008 /* crsqlite-init.c in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED552A6B22D2005EA008 /* crsqlite-init.c */; };
+		DE65ED582A6B22D2005EA008 /* crsqlite-init.c in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED552A6B22D2005EA008 /* crsqlite-init.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,11 @@
 		DE65ED462A6B1BEF005EA008 /* crsqlite-aarch64-darwin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "crsqlite-aarch64-darwin.a"; sourceTree = "<group>"; };
 		DE65ED482A6B1BFB005EA008 /* crsqlite-universal-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "crsqlite-universal-ios.a"; sourceTree = "<group>"; };
 		DE65ED4A2A6B1C03005EA008 /* crsqlite-universal-ios-sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "crsqlite-universal-ios-sim.a"; sourceTree = "<group>"; };
+		DE65ED512A6B22D2005EA008 /* xcode-starter-mac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcode-starter-mac-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE65ED522A6B22D2005EA008 /* xcode-starter-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcode-starter-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE65ED532A6B22D2005EA008 /* xcode-starter-ios-simulator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcode-starter-ios-simulator-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE65ED542A6B22D2005EA008 /* crsqlite-init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crsqlite-init.h"; sourceTree = "<group>"; };
+		DE65ED552A6B22D2005EA008 /* crsqlite-init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crsqlite-init.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,11 @@
 				DE65ED062A6B1B8F005EA008 /* Assets.xcassets */,
 				DE65ED082A6B1B8F005EA008 /* xcode_starter.entitlements */,
 				DE65ED092A6B1B8F005EA008 /* Preview Content */,
+				DE65ED542A6B22D2005EA008 /* crsqlite-init.h */,
+				DE65ED552A6B22D2005EA008 /* crsqlite-init.c */,
+				DE65ED512A6B22D2005EA008 /* xcode-starter-mac-Bridging-Header.h */,
+				DE65ED522A6B22D2005EA008 /* xcode-starter-ios-Bridging-Header.h */,
+				DE65ED532A6B22D2005EA008 /* xcode-starter-ios-simulator-Bridging-Header.h */,
 			);
 			path = "xcode-starter";
 			sourceTree = "<group>";
@@ -367,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE65ED052A6B1B8E005EA008 /* ContentView.swift in Sources */,
+				DE65ED562A6B22D2005EA008 /* crsqlite-init.c in Sources */,
 				DE65ED032A6B1B8E005EA008 /* xcode_starterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE65ED2F2A6B1BB1005EA008 /* ContentView.swift in Sources */,
+				DE65ED572A6B22D2005EA008 /* crsqlite-init.c in Sources */,
 				DE65ED302A6B1BB1005EA008 /* xcode_starterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE65ED3B2A6B1BBA005EA008 /* ContentView.swift in Sources */,
+				DE65ED582A6B22D2005EA008 /* crsqlite-init.c in Sources */,
 				DE65ED3C2A6B1BBA005EA008 /* xcode_starterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +585,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "xcode-starter/xcode-starter-mac-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -612,6 +629,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "xcode-starter/xcode-starter-mac-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -740,6 +758,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "xcode-starter/xcode-starter-ios-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -784,6 +803,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "xcode-starter/xcode-starter-ios-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -827,6 +847,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "xcode-starter/xcode-starter-ios-simulator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -871,6 +892,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "xcode-starter/xcode-starter-ios-simulator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

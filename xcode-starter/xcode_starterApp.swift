@@ -10,10 +10,7 @@ import SwiftUI
 @main
 struct xcode_starterApp: App {
     init() {
-        UserDefaults.standard.register(defaults: [
-            "name": "Taylor Swift",
-            "highScore": 10
-        ])
+        print("Loading crsqlite: \(crsqlite_init_from_swift())")
     }
     
     var body: some Scene {
