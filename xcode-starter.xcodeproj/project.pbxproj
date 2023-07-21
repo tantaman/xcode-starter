@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65E3B3C20CF344D5B17D2217 /* Pods_CRSQLite_xcode_starter_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63CE993E31E2E4A31772C6E /* Pods_CRSQLite_xcode_starter_mac.framework */; };
 		DE65ED032A6B1B8E005EA008 /* xcode_starterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED022A6B1B8E005EA008 /* xcode_starterApp.swift */; };
 		DE65ED052A6B1B8E005EA008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED042A6B1B8E005EA008 /* ContentView.swift */; };
 		DE65ED072A6B1B8F005EA008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE65ED062A6B1B8F005EA008 /* Assets.xcassets */; };
@@ -28,6 +29,8 @@
 		DE65ED562A6B22D2005EA008 /* crsqlite-init.c in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED552A6B22D2005EA008 /* crsqlite-init.c */; };
 		DE65ED572A6B22D2005EA008 /* crsqlite-init.c in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED552A6B22D2005EA008 /* crsqlite-init.c */; };
 		DE65ED582A6B22D2005EA008 /* crsqlite-init.c in Sources */ = {isa = PBXBuildFile; fileRef = DE65ED552A6B22D2005EA008 /* crsqlite-init.c */; };
+		E9F56EA37AB09F5BD2971005 /* Pods_CRSQLite_xcode_starter_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB408B8C1A49E93F5089A86 /* Pods_CRSQLite_xcode_starter_ios.framework */; };
+		FCFF4DA0EEDD9DD2B77A43BD /* Pods_CRSQLite_xcode_starter_ios_simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CA32050248B947D71BDFF5 /* Pods_CRSQLite_xcode_starter_ios_simulator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11E25D5ED3EFC583F766CC1A /* Pods-CRSQLite-xcode-starter-ios-simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSQLite-xcode-starter-ios-simulator.debug.xcconfig"; path = "Target Support Files/Pods-CRSQLite-xcode-starter-ios-simulator/Pods-CRSQLite-xcode-starter-ios-simulator.debug.xcconfig"; sourceTree = "<group>"; };
+		4178ACA32E6C900BFE1816DA /* Pods-CRSQLite-xcode-starter-mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSQLite-xcode-starter-mac.release.xcconfig"; path = "Target Support Files/Pods-CRSQLite-xcode-starter-mac/Pods-CRSQLite-xcode-starter-mac.release.xcconfig"; sourceTree = "<group>"; };
+		45F196D351D5932E01D7ACC8 /* Pods-CRSQLite-xcode-starter-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSQLite-xcode-starter-ios.debug.xcconfig"; path = "Target Support Files/Pods-CRSQLite-xcode-starter-ios/Pods-CRSQLite-xcode-starter-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		47CA32050248B947D71BDFF5 /* Pods_CRSQLite_xcode_starter_ios_simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRSQLite_xcode_starter_ios_simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F904201180274D412A1E4DE /* Pods-CRSQLite-xcode-starter-mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSQLite-xcode-starter-mac.debug.xcconfig"; path = "Target Support Files/Pods-CRSQLite-xcode-starter-mac/Pods-CRSQLite-xcode-starter-mac.debug.xcconfig"; sourceTree = "<group>"; };
+		97AE8D7B2EBA94FB67637002 /* Pods-CRSQLite-xcode-starter-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSQLite-xcode-starter-ios.release.xcconfig"; path = "Target Support Files/Pods-CRSQLite-xcode-starter-ios/Pods-CRSQLite-xcode-starter-ios.release.xcconfig"; sourceTree = "<group>"; };
+		AFC5A133F48D23FB757A809D /* Pods-CRSQLite-xcode-starter-ios-simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSQLite-xcode-starter-ios-simulator.release.xcconfig"; path = "Target Support Files/Pods-CRSQLite-xcode-starter-ios-simulator/Pods-CRSQLite-xcode-starter-ios-simulator.release.xcconfig"; sourceTree = "<group>"; };
+		CDB408B8C1A49E93F5089A86 /* Pods_CRSQLite_xcode_starter_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRSQLite_xcode_starter_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE65ECFF2A6B1B8E005EA008 /* xcode-starter-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode-starter-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE65ED022A6B1B8E005EA008 /* xcode_starterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode_starterApp.swift; sourceTree = "<group>"; };
 		DE65ED042A6B1B8E005EA008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +80,7 @@
 		DE65ED532A6B22D2005EA008 /* xcode-starter-ios-simulator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcode-starter-ios-simulator-Bridging-Header.h"; sourceTree = "<group>"; };
 		DE65ED542A6B22D2005EA008 /* crsqlite-init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crsqlite-init.h"; sourceTree = "<group>"; };
 		DE65ED552A6B22D2005EA008 /* crsqlite-init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crsqlite-init.c"; sourceTree = "<group>"; };
+		E63CE993E31E2E4A31772C6E /* Pods_CRSQLite_xcode_starter_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRSQLite_xcode_starter_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE65ED472A6B1BEF005EA008 /* crsqlite-aarch64-darwin.a in Frameworks */,
+				65E3B3C20CF344D5B17D2217 /* Pods_CRSQLite_xcode_starter_mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE65ED492A6B1BFB005EA008 /* crsqlite-universal-ios.a in Frameworks */,
+				E9F56EA37AB09F5BD2971005 /* Pods_CRSQLite_xcode_starter_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,12 +121,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE65ED4B2A6B1C03005EA008 /* crsqlite-universal-ios-sim.a in Frameworks */,
+				FCFF4DA0EEDD9DD2B77A43BD /* Pods_CRSQLite_xcode_starter_ios_simulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4C14EA07F533C4BBA0DE19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45F196D351D5932E01D7ACC8 /* Pods-CRSQLite-xcode-starter-ios.debug.xcconfig */,
+				97AE8D7B2EBA94FB67637002 /* Pods-CRSQLite-xcode-starter-ios.release.xcconfig */,
+				11E25D5ED3EFC583F766CC1A /* Pods-CRSQLite-xcode-starter-ios-simulator.debug.xcconfig */,
+				AFC5A133F48D23FB757A809D /* Pods-CRSQLite-xcode-starter-ios-simulator.release.xcconfig */,
+				5F904201180274D412A1E4DE /* Pods-CRSQLite-xcode-starter-mac.debug.xcconfig */,
+				4178ACA32E6C900BFE1816DA /* Pods-CRSQLite-xcode-starter-mac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E78C86835A9A64A4FF57534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB408B8C1A49E93F5089A86 /* Pods_CRSQLite_xcode_starter_ios.framework */,
+				47CA32050248B947D71BDFF5 /* Pods_CRSQLite_xcode_starter_ios_simulator.framework */,
+				E63CE993E31E2E4A31772C6E /* Pods_CRSQLite_xcode_starter_mac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE65ECF62A6B1B8E005EA008 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +159,8 @@
 				DE65ED132A6B1B8F005EA008 /* xcode-starterTests */,
 				DE65ED1D2A6B1B8F005EA008 /* xcode-starterUITests */,
 				DE65ED002A6B1B8E005EA008 /* Products */,
+				0B4C14EA07F533C4BBA0DE19 /* Pods */,
+				6E78C86835A9A64A4FF57534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE65ED242A6B1B8F005EA008 /* Build configuration list for PBXNativeTarget "xcode-starter-mac" */;
 			buildPhases = (
+				3DBED463062361E9AC018BFE /* [CP] Check Pods Manifest.lock */,
 				DE65ECFB2A6B1B8E005EA008 /* Sources */,
 				DE65ECFC2A6B1B8E005EA008 /* Frameworks */,
 				DE65ECFD2A6B1B8E005EA008 /* Resources */,
+				EE3C2B0C6BC7F138EE495092 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE65ED352A6B1BB1005EA008 /* Build configuration list for PBXNativeTarget "xcode-starter-ios" */;
 			buildPhases = (
+				C133B05139D8D193A8124E88 /* [CP] Check Pods Manifest.lock */,
 				DE65ED2E2A6B1BB1005EA008 /* Sources */,
 				DE65ED312A6B1BB1005EA008 /* Frameworks */,
 				DE65ED322A6B1BB1005EA008 /* Resources */,
+				01891989559D75C64922BAB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE65ED412A6B1BBA005EA008 /* Build configuration list for PBXNativeTarget "xcode-starter-ios-simulator" */;
 			buildPhases = (
+				41766BAB2D938BAA2D750B1B /* [CP] Check Pods Manifest.lock */,
 				DE65ED3A2A6B1BBA005EA008 /* Sources */,
 				DE65ED3D2A6B1BBA005EA008 /* Frameworks */,
 				DE65ED3E2A6B1BBA005EA008 /* Resources */,
+				CB73B144C9D47FBBD4FF11E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,6 +419,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01891989559D75C64922BAB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-ios/Pods-CRSQLite-xcode-starter-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-ios/Pods-CRSQLite-xcode-starter-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-ios/Pods-CRSQLite-xcode-starter-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBED463062361E9AC018BFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRSQLite-xcode-starter-mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41766BAB2D938BAA2D750B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRSQLite-xcode-starter-ios-simulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C133B05139D8D193A8124E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRSQLite-xcode-starter-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB73B144C9D47FBBD4FF11E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-ios-simulator/Pods-CRSQLite-xcode-starter-ios-simulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-ios-simulator/Pods-CRSQLite-xcode-starter-ios-simulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-ios-simulator/Pods-CRSQLite-xcode-starter-ios-simulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE3C2B0C6BC7F138EE495092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-mac/Pods-CRSQLite-xcode-starter-mac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-mac/Pods-CRSQLite-xcode-starter-mac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRSQLite-xcode-starter-mac/Pods-CRSQLite-xcode-starter-mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE65ECFB2A6B1B8E005EA008 /* Sources */ = {
@@ -549,6 +715,7 @@
 		};
 		DE65ED252A6B1B8F005EA008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F904201180274D412A1E4DE /* Pods-CRSQLite-xcode-starter-mac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -570,8 +737,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/crsqlite",
@@ -593,6 +759,7 @@
 		};
 		DE65ED262A6B1B8F005EA008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4178ACA32E6C900BFE1816DA /* Pods-CRSQLite-xcode-starter-mac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -614,8 +781,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/crsqlite",
@@ -722,6 +888,7 @@
 		};
 		DE65ED362A6B1BB1005EA008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F196D351D5932E01D7ACC8 /* Pods-CRSQLite-xcode-starter-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -730,6 +897,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"xcode-starter/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -743,8 +911,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/crsqlite",
@@ -767,6 +934,7 @@
 		};
 		DE65ED372A6B1BB1005EA008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97AE8D7B2EBA94FB67637002 /* Pods-CRSQLite-xcode-starter-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -775,6 +943,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"xcode-starter/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -788,8 +957,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/crsqlite",
@@ -811,6 +979,7 @@
 		};
 		DE65ED422A6B1BBA005EA008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E25D5ED3EFC583F766CC1A /* Pods-CRSQLite-xcode-starter-ios-simulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -819,6 +988,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"xcode-starter/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -832,8 +1002,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/crsqlite",
@@ -856,6 +1025,7 @@
 		};
 		DE65ED432A6B1BBA005EA008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC5A133F48D23FB757A809D /* Pods-CRSQLite-xcode-starter-ios-simulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -864,6 +1034,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"xcode-starter/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -877,8 +1048,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/crsqlite",
